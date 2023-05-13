@@ -1,0 +1,70 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/* change the width and the color of entire page */
+body         {background-color:#eeeeee;line-height: 1;}
+#wrapper     {width:900px; margin:0px auto 10px auto; background-color:#ffffff; }
+
+
+/* change the style of the top div, including the bg color and setting overflow as hidden */
+#top         {background-color:black; width:100%; padding:20px 0px; overflow:hidden; border-bottom:3px #CCCCCC solid; }
+
+/* change the logo style and setting float to left inorder to move the media div to the right*/
+#logo        {margin:0px 0px 0px 10px; float:left;}
+
+/* change the style of the media div and its contents */
+#media       {float:right; margin:0px 10px 0px 0px;  }
+#media p     {color:#ffffff; font-size:12px; margin:4px 10px 4px 0px; }
+#media img   {width:24px; height:24px;}
+#media ul li { display:inline; font-style:normal}
+
+/* change the style of the top navigation menu, next we will use online service to creatge a css menu, try www.cssmenumaker.com */
+#topnav      {background-color:#333333; clear:both; }
+#topnav ul li      {display:inline;}
+#topnav ul {width:100%; float:left; margin:0px auto; background-color:#333333; border-bottom:3px #CCCCCC solid;  }
+#topnav a:link {color:#ffffff;}
+#topnav a:visited {color:#ffffff;}
+#topnav a:active {color:#ffffff;}
+#topnav a:hover {color:#ffffff; background-color:#CC0000;}
+#topnav a:focuse {color:#ffffff;}
+#topnav ul li a {float:left; padding:10px 20px; font-style:normal;}
+
+
+/* change the style of banner, next we will learn how to use external tool like wow slider to slides the picuters */
+
+#subbanner { width:100%; background-color:#555555; padding:10px 0px; overflow:hidden;}
+
+
+/* format the subbanner */
+#subbanner h3 {color:#ffffff; font-size:16px; font-weight:bold; text-align:center; line-height:180%   }
+
+/* change the style of the content div and its contents */
+#content      {float:left; width:650px; padding:20px;   }
+#content h1 {margin:0 0 20px 0; font-size:32px; border-bottom:1px #777777 solid; padding:20px 0px;}
+#content p  {margin:10px 0; line-height:150%; text-align:justify; }
+#content h2 {margin:20px 0 0 0; font-size:25px; text-align:center; }
+#content img {padding:8px; border:1px #888888 dotted; margin:8px; height:150px; width:150px;}
+
+
+/* change the style of the rightside div and its contents */
+#rightside    {padding:20px; margin-left:675px; }
+#rightside h2   {margin:20px 0 10px 0; text-align:center; font-size:20px; color:#2e73e2;}
+#rightside p {margin:8px 0; line-height:150%;}
+
+/* change the style of the footer div and its contents */
+#footer       {clear:both; background-color:black; padding:10px 0;}
+#footer p {text-align:center; color:#ffffff;} 
+
+
